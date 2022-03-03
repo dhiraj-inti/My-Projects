@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>HOME</title>
+    <!-- add icon link -->
+    <link rel = "icon" href = 
+    "https://thumbs.dreamstime.com/z/serving-food-icon-symbol-service-serving-food-icon-sign-hand-waiter-serving-tray-waiter-serving-isolated-symbol-148100509.jpg" 
+            type = "image/x-icon">
+    <style>
+        .list-desc{
+            list-style-type: square;
+            font-size: 14px;
+            padding: 12px 16px;
+        }
+
+        .menu-item{
+            background-color: bisque;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            display : inline;
+            padding:12px 16px;
+        }
+
+        .section{
+            width: 100%;
+            height: 550px;
+        }
+
+        #pizza-section{
+            background-color: aquamarine;
+        }
+
+        #biryani-section{
+            background-color: blanchedalmond;
+        }
+
+        #burger-section{
+            background-color: beige;
+        }
+
+        #pasta-section{
+            background-color: antiquewhite;
+        }
+
+        #topbar{
+            list-style-type: none; 
+            background-color: bisque;
+            padding:12px 16px;
+        }
+
+        #food-list{
+            font-size: medium;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <ul id = "topbar">
+        <li class = "menu-item"><a href = "home.html">Home</a></li>
+        <li class = "menu-item"><a href = "about.html" target = "_blank">About Us</a></li>
+        <li class = "menu-item"><a href = "contact.html" target = "_blank">Contact</a></li>
+    </ul>
+    <h3>Top 4 Favourite Foods:</h3>
+    <ol type = "1" id = "food-list" >
+        <li><a href = "home.html#pizza-section">Pizza</a></li>
+        <li><a href = "home.html#burger-section">Burger</a></li>
+        <li><a href = "home.html#biryani-section">Biryani</a></li>
+        <li><a href = "home.html#pasta-section">Pasta</a></li>
+    </ol>
+
+    <div class = "section" id = "pizza-section">
+        <img src = "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg"
+        alt = "pizza"
+        style = "width: 450px; height: 450px; padding-left: 500px; padding-right: 500px;">
+
+        <h1 style = "padding-left: 680px; padding-right: 500px;">PIZZA</h1>
+    </div>
+
+    <div class = "section" id = "burger-section">
+        <img src = "https://static.toiimg.com/photo/79811787.cms"
+        alt = "burger"
+        style = "width: 450px; height: 450px; padding-left: 500px; padding-right: 500px;">
+
+        <h1 style = "padding-left: 650px; padding-right: 500px;">BURGER</h1>
+    </div>
+
+    <div class = "section" id = "biryani-section">
+        <img src = "https://ichef.bbci.co.uk/news/976/cpsprodpb/E264/production/_116965975_gettyimages-639704020.jpg"
+        alt = "biryani"
+        style = "width: 450px; height: 450px; padding-left: 500px; padding-right: 500px;">
+
+        <h1 style = "padding-left: 650px; padding-right: 500px;">BIRYANI</h1>
+    </div>
+
+    <div class = "section" id = "pasta-section">
+        <img src = "https://everylittlecrumb.com/wp-content/uploads/pinksaucepasta-500x500.jpg"
+        alt = "pasta"
+        style = "width: 450px; height: 450px; padding-left: 500px; padding-right: 500px;">
+
+        <h1 style = "padding-left: 680px; padding-right: 500px;">PASTA</h1>
+    </div>
+
+</body>
+</html>
