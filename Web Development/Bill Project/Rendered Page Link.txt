@@ -1,0 +1,3 @@
+Use this link to see rendered page: 
+
+https://htmlpreview.github.io/?https://github.com/dhiraj-inti/My-Projects/blob/main/Web%20Development/Bill%20Project/bill.html
