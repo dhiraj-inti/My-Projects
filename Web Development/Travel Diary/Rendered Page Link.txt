@@ -1,2 +1,3 @@
 Use The following link for output:
 
+https://htmlpreview.github.io/?https://github.com/dhiraj-inti/My-Projects/blob/main/Web%20Development/Travel%20Diary/Home.html
