@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-image = 'dhiraj_bw.jpg'
+image = 'test_img.jpg'
 
 prototxt = "model\colorization_deploy_v2.prototxt"
 caffe_model = "model\colorization_release_v2.caffemodel"
