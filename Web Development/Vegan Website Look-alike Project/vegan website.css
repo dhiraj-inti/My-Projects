@@ -1,0 +1,567 @@
+body{
+    margin:0;
+    padding:0;
+    display: block;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+footer{
+    background-color:#232323;
+    color:white;
+    text-align:center;
+    font-size: 16px;
+    height: 60px;
+    padding-top:30px;
+}
+
+.menu-items{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.menu-items:hover{
+    cursor: pointer;
+}
+
+.step-label{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+
+.step-description{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin: 0px 70px;
+}
+
+.step-item{
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.store-heading{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-size: 44px;
+    font-weight: 600;
+    position: relative;
+    top:-20px;
+}
+
+.store-description{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+    top:-27px;
+}
+
+.store-item{
+    width: 25%;
+    height: 49.5vh;
+    text-align: center;
+    padding: 100px 30px;
+    justify-content: center;
+}
+
+.store-item-heading{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+
+.store-item-description{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+    top:17px;
+}
+
+.store-icon{
+    height: 150px; 
+    width: 150px;
+    margin-left: 30px;
+    background-color: #e3b375;
+    border-radius: 75px;
+}
+
+.fresh-food-text{
+    color: #91ac41;
+    font-size: 24px;
+    font-weight:100;
+    font-family: 'Caveat',cursive;
+}
+
+.testimonial-card{
+    background-color: #f5f6fb;
+    width: 33%;
+    margin: 90px 15px;
+    padding: 50px 35px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    text-align: center;
+    justify-content: center;
+}
+
+.testimonial-card:hover{
+    animation: card-shadow 1s linear 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes card-shadow{
+    0%{
+
+    }
+    100%{
+        box-shadow: 0 1px 6px #8b8b99;
+    }
+}
+
+.testimonial-card img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.testimonial-card-message{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonial-card-author{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonial-card-author-designation{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.stats-item{
+    text-align: center;
+    padding: 0px;
+    height: 100%;
+    width: 15vw;
+}
+
+.stats{
+    font-style: bold;
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.stats-head{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;
+    color: #91ac41;
+    position: relative;
+    top:-30px;
+}
+
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.section-heading{
+    font-size: 44px;
+    margin: 0;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.store-item:hover div{
+    animation-name: icon-zoom;
+    animation: icon-zoom 1s linear 1;
+    animation-fill-mode: forwards;
+    z-index: 1000000;
+}
+
+#dropdown{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    width: 120px;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    border-top: 3px solid rgb(170, 210, 54);
+    display: none;
+}
+
+#dropdown div{
+    border-bottom: 2px solid #232323;
+    padding-top: 8px;
+}
+
+#menu-available:hover #dropdown{
+    display: block;
+    position: fixed;
+    right: 390px;
+}
+
+#topbar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    margin: 0;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+#right-menu{
+    background-color:white;
+    width: 100%;
+    margin-right: 80px;
+    text-align: right;
+}
+
+#logo{
+    height: 50px;
+}
+
+#buy-now-btn{
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(170,210,54);
+    font-weight: 600;
+    padding: 9px 34px;
+    border-radius: 4px;
+}
+
+#intro{
+    height:100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}
+
+#intro-heading{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 8.8px;
+    margin: 220px 300px;
+    margin-bottom:0px;
+}
+
+#intro-description{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin: 50px 280px;
+}
+
+#step-section{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+}
+
+
+#step-section i{
+    font-size:96px;
+    color: white;
+    margin-top: 100px;
+    animation-name: icon-zoom;
+}
+
+#step-section div:hover i{
+    animation: icon-zoom 3s linear 1;
+    animation-fill-mode: forwards;
+}
+
+#step-1{
+    background-color: #5acda6;
+}
+
+#step-2{
+    background-color: #91ac41;
+}
+
+#step-3{
+    background-color: #e4b476;
+}
+
+#step-4{
+    background-color: #f69dad;
+}
+
+
+@keyframes icon-zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+#store-wrapper{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 190px;
+    position: relative;
+    top: -40px;
+}
+
+#store-section{
+    background-color: #f7eee2;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#testimonial-section{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#testimonial-card-wrapper{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 190px;
+    position: relative;
+    top: -40px;
+}
+
+#follow-section{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+
+#follow-section-left{
+    height: 100vh;
+    width: 66.8%;
+    background-image: url('https://mobirise.com/extensions/organicamp/assets/images/19.jpg');
+}
+
+#follow-section-right{
+    height: 100vh;
+    width: 33.2%;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    /* padding: 0px 50px; */
+    text-align: left;
+}
+
+#follow-us-wrapper{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 70px;
+    margin-top:130px;
+}
+
+#follow-us{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+
+#follow-us-desc{
+    font-family: 'Poppins',sans-serif;
+    color: #8b8b99;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top:-35px;
+}
+
+#email-input{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 19px;
+    font-style: bold;
+}
+
+#subscribe-btn{
+    background-color: #f69dad;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+#stats-section{
+    background-color: rgb(245,245,245);
+    height: 50vh;
+    width: 100%;
+}
+
+#stats-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#video-section{
+    height: 100vh;
+    width: 100%;
+    padding-left: 50px 90px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: #8b8b99;
+}
+
+#line-separator{
+    height: 96px;
+    width:96px;
+    margin-left: 46vw;
+    border-top: 1px solid orange;
+}   
+
+#address-section{
+    width: 100vw;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: block;
+}
+
+#address-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+#btn-submit {
+    font-size: 16px;
+}   
+
+#contact-us{
+    width: 100vw;
+    padding: 0 80px;
+    padding-left: 0;
+    
+}
+
+#meet-our-team{
+    width: 100vw;
+    padding: 0 80px;
+    padding-left: 0; 
+}
