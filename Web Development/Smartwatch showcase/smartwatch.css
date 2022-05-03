@@ -1,0 +1,134 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color:#131A22;
+    height:70px;
+    width:100%;
+    text-align:center;
+    position: relative;
+    top:0;
+}
+
+header img{
+    height:70px;
+    width:90px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#display-wrapper{
+    width:47vw;
+}
+
+#detail-wrapper{
+    width:53vw;
+    margin-right: 280px;
+}
+
+#product-wrapper{
+    display: flex;
+}
+
+#product-name{
+    font-style: Montserrat;
+    font-size: 45px;
+}
+
+#product-description{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    position: relative;
+    top:-30px;
+}
+
+#color-wrapper{
+    display: inline;
+    position: relative;
+    top: -50px;
+}
+
+#blue{
+    background-color: #565681;
+}
+
+#purple{
+    background-color:  #8a5362;
+}
+
+#red{
+    background-color: #ca3d22 ;
+}
+
+#black{
+    background-color:  #23211f;
+    margin-left: 0px;
+}
+
+#time{
+    margin-left: 0px;
+}
+
+#buy-btn{
+    background-color: #ffdb58;
+    font-size: 22px;
+    border:none;
+    border-radius: 5px;
+    height:50px;
+    padding: 7px 10px;
+    
+}
+
+#watch-img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    right:-100px;
+    top:10px;
+}
+
+#watch-display{
+    z-index: 9999;
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top:290px;
+    right:-310px;
+}
+
+.color{
+    width:60px;
+    height:40px;
+    margin:0px 5px;
+    border:none;
+    border-radius: 5px;
+}
+
+.sub-text{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+}
+
+.heads{
+    font-style: Montserrat;
+    font-size: 25px;
+}
+
+.feature{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 7px;
+    position: relative;
+    top:-50px;
+}
+
+h5{
+    position:relative;
+    top:-30px;
+}
